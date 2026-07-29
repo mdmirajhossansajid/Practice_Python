@@ -8,4 +8,4 @@ sum=lastdigitnum1+lastdigitnum2
 print(sum)
 
 
-
+print(7 / 2)
