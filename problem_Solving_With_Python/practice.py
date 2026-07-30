@@ -1,0 +1,1 @@
+print("Hello! This program will help you scale a number using min-max scaling.")
