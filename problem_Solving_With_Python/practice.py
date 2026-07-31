@@ -1,1 +1,7 @@
 print("Hello! This program will help you scale a number using min-max scaling.")
+print("Please enter the minimum value of the range:")
+min_value = float(input())
+print("Please enter the maximum value of the range:")
+max_value = float(input())
+print("Please enter the number you want to scale:")
+number = float(input()) 
