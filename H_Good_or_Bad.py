@@ -5,3 +5,5 @@ for i in range(n):
         print("Good")
     else:
         print("Bad")
+        
+        
