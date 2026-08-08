@@ -1,0 +1,5 @@
+inp=int(input())
+arr=list(map(int,input().split()))
+minvalue=lambda x: min(x)
+maxvalue= lambda x: max(x)
+print(minvalue(arr),maxvalue(arr))
