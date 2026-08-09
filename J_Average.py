@@ -8,3 +8,8 @@ total = reduce(lambda x, y: x + y, arr)
 average = total / n
 
 print(f"{average:.7f}")
+
+
+
+
+
