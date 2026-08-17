@@ -10,4 +10,14 @@ Write a Python program to clean the data by:
 Finally, save the cleaned list into a new file named clean_names.txt.
 -----------------------------------------------------------------------------------------------------------------------
 
-
+with open("names.txt","r") as file:
+  names=file.readlines()
+  clean_names=set()
+  for name in names:
+    name=name.strip().capitalize()
+    clean_names.add(name)
+  clean_names=sorted(clean_names)
+  with open("clean_names.txt","w") as file:
+    for name in clean_names:
+      file.write(name+"\n")
+    print(*clean_names, sep="\n")
